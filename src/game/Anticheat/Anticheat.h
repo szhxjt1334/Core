@@ -1,6 +1,3 @@
-/**
-* Contains interface and calls that have to be implemented by the anticheat lib.
-*/
 
 #ifndef ANTICHEAT_H
 #define ANTICHEAT_H
@@ -103,7 +100,7 @@ public:
     virtual void loadConfig() {}
 
     virtual std::string normalizeMessage(const std::string &msg, uint32 mask = 0) { return msg; }
-    virtual uint8 filterMessage(const std::string &msg) { return 0; }
+    virtual bool filterMessage(const std::string &msg) { return false; }
 
     virtual void addMessage(const std::string& msg, uint32 type, PlayerPointer from, PlayerPointer to) {}
 

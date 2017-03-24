@@ -1,0 +1,38 @@
+[AnticheatConf]
+ConfVersion=2016122101
+
+# Movement Anticheat
+Anticheat.Enable = 0
+Anticheat.AntiMultiJump.Enable = 0
+Anticheat.AntiSpeedHack.Enable = 0
+Anticheat.AntiSpeedHack.UseInterpolation = 0
+Anticheat.AntiWallClimb.Enable = 0
+Anticheat.AntiWaterWalk.Enable = 0
+Anticheat.GMAnnounceMask = 0
+Anticheat.MaxAllowedDesync = 0
+Anticheat.NotifyCheaters = 0
+
+# DB debug log for testing purposes
+Anticheat.LogData        = 0
+AnticheatLogFile = "cheats.log"
+
+# Antispam
+Antispam.Enable = 0
+Antispam.BanEnable = 0
+Antispam.MaxRestrictionLevel = 20
+Antispam.OriginalNormalizeMask = 0
+Antispam.FullyNormalizeMask = 0
+Antispam.ScoreThreshold = 4
+Antispam.Mutetime = 3600
+Antispam.ChatMask = 0
+Antispam.DetectThreshold = 3
+Antispam.RepeatCount = 5
+Antispam.UpdateTimer = 60000
+Antispam.MessageBlockSize = 5
+Antispam.FrequencyTime = 6
+Antispam.FrequencyCount = 5
+Antispam.MergeAllWhispers = 0
+
+# Warden
+Warden.MemChecksCount = 10
+Warden.OtherChecksCount = 6
